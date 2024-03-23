@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); 
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif,'Poppins';
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    background: radial-gradient(50% 50% at 50% 50%, #FBBF24 0%,#F59E0B 100%);
+    padding-left: 40px;
+    padding-bottom: 95px;
+    padding-top: 95px;
+    padding-right: 40px;
+    padding-bottom-left-radius: 20px;
+    padding-top-left-radius:20px;
+}
+
+.right
+{
+    background: radial-gradient(50% 50% at 50% 50%, #F8FAFC 0%, #F5F8FB 45.50%,#F1F5F9 100%);
+    padding-left: 64px;
+    padding-bottom: 70px;
+    padding-top: 82px;
+    padding-right: 64px;
+    padding-bottom-left-radius: 20px;
+    padding-top-left-radius:20px;
+}
+ 
+.h1
+{
+    font-size: 1.75rem;
+    text-align: center;
+    color:#666161;
+    line-height: 2;
+}
+
+.box
+{
+    width: 345px;
+    height: 55px;
+    outline: none;
+    border:1px solid #fff;
+    padding:12px 20px;
+    margin-bottom:10px;
+    border-radius:10px;
+    background:#ffffff;
+}
+
+.box::placeholder
+{
+    color:#d2dae0;
+}
+
+form{
+    font-size:0.8rem;
+    color:#414a53;
+    line-height: 2;
+
+}
+
+.fpsw
+{
+    font-size:0.87rem;
+    text-align: end;
+    color: #1a1919f3;
+
+}
+
+button{
+    width: 345px;
+    height: 55px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: none;
+    background: radial-gradient(100% 75% at 5% 50%,#FBBF24 0%,#F59E0B 100%);
+    color: white;
+    font: medium;
+
+}
+
+.member
+{
+    font-size: x-small;
+    text-align: center;
+    color:#131618;
+}
+
+a{
+    color:rgb(76,178,255);
+    font-weight: bold;
+}
